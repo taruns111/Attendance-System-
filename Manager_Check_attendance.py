@@ -6,7 +6,7 @@ import pymysql
 conn = pymysql.connect(
     host = "localhost",
     user = "root",
-    password = "taruns22",
+    password = , # Enter your database password
     db = "Attendance"
 )
 cursor = conn.cursor()
